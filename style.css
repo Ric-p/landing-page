@@ -73,6 +73,7 @@ button {
     justify-content: center;
     gap: 50px;
     text-align: center;
+    margin: 86px;
 }
 
 
@@ -81,9 +82,6 @@ button {
     font-size: 36px;
     font-weight: 900;
     margin: 36px;
-    
-
-   
 }
 .container {
     width: 150px;
@@ -92,4 +90,25 @@ button {
 .cards img {
     width: 150px;
     border-radius: 8px;
+}
+
+.quote {
+    text-align: left;
+    background: #e5e7eb;
+    font-size: 24px;
+    color: #1f2937;
+    border: 2px solid red;
+    padding: 64px 350px;
+    font-style: italic;
+    font-weight: 100;
+}
+.author {
+    color: #1F2937;
+    text-align: right;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.cta {
+    background-color: #3882F6;
 }
